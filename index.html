@@ -30,32 +30,52 @@
 
     <div>
       <!-- Parent Container -->
-      <div class="flex flex-col bg-dark-blue min-h-[30vh]">
+      <div class="flex flex-col  bg-dark-blue min-h-[30vh]">
         <!-- Work Experience -->
-        <div class="bg-white m-2 rounded-lg">
-          <h2 class="text-navy-blue text-center">Experience</h2>
-          <hr class="border-baby-blue">
-          <div>
-            <ul>
-              <li>FreeCast</li>
-              <li>BlackTip IT</li>
-              <li>ClearEdge Title</li>
+        <div class="bg-white mt-4 mx-4 rounded-lg text-navy-blue">
+          <h2 class="text-center text-lg">Experience</h2>
+          <hr class="border-light-blue">
+          <div class="text-sm">
+            <ul class="list-disc list-inside pl-2">
+              <li>FreeCast - QA Release Manager (Current Position) <ul class="list-disc list-inside pl-4">
+                  <li>Coordinated testing and release readiness across 9 releases for FreeCast’s apps.</li>
+                </ul>
+              </li>
+              <li>BlackTip IT - Frontline Engineer 2023<ul class="list-disc list-inside pl-4">
+                  <li>Handled tickets within the required SLA.</li>
+                  <li>Procured new equipment for multiple businesses</li>
+                  <li>Troubleshoot computer issues</li>
+                </ul>
+              </li>
+              <li>ClearEdge Title - IT Support 2022<ul class="list-disc list-inside pl-4">
+                  <li>Solved tickets within the requireed SLA.</li>
+                  <li>Organized Equipment</li>
+                  <li>Handled offboarding</li>
+                  <li>Fixed old equipment</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
         <!-- Cards Row Container -->
-        <div class="flex gap-4 justify-center p-2 text-center">
-          <div class="flex flex-col bg-white flex-1 rounded-lg">
-            <h2 class="text-navy-blue">Education</h2>
-            <hr class="border-baby-blue">
-            <ul class="list-disc list-inside">
+        <div class="flex flex-col md:flex-row gap-4 justify-center p-2 m-2 text-center">
+          <div class="flex flex-col  bg-white flex-1 rounded-lg text-navy-blue">
+            <h2 class="text-lg">Education</h2>
+            <hr class="border-light-blue">
+            <ul class="list-disc list-inside text-sm">
               <li>B.S. in Software Engineering, WGU 2026</li>
               <li>A.S in Computer Programming, SPC 2024</li>
             </ul>
           </div>
-          <div class="flex flex-col bg-white flex-1 rounded-lg">
-            <h2 class="text-navy-blue">Skills</h2>
-            <hr class="border-baby-blue">
+          <div class="flex flex-col bg-white flex-1 rounded-lg text-navy-blue">
+            <h2 class="text-lg">Skills</h2>
+            <hr class="border-light-blue">
+            <ul class="list-disc list-inside grid grid-cols-2 gap-2 text-sm">
+              <li class="break-words">JS/TS</li>
+              <li>Playwright</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
           </div>
         </div>
       </div>
